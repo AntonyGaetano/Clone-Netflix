@@ -3,6 +3,10 @@
 
 #box1{
   background-image: url(img/fundo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
   height: 100vh;
 }
 
