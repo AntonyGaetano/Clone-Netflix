@@ -6,44 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <script src="app.js"></script>
 </head>
 <body>
 
-    <!-- Inicio do header -->
-    <section>
-       <header>
-              <div>
+    
+    <section id="box1">
+
+        <!-- Inicio do header -->
+       <header id="header">
+              <div id="logo">
                   <img src="img/logo-netflix.png" alt="">
               </div>
 
-              <div>
-                  <details>
-                      <summary>
-                          <i></i>
-                          Português
-                        </summary>
+              <div class="details-login">
+                <div>
+                   <i class="material-icons">
+                    language
+                    </i>
+                   <p>Português</p>
+                   <i class="material-icons">
+                    arrow_drop_down
+                    </i>
+                </div>
 
-                      <p>Português</p>
-                      <p>Inglês</p>
-                  </details>
-                  <button></button>
+                  <button>Entrar</button>
               </div> 
         </header>
+        <!-- Fim do header -->
 
-        <main>
+        
+         <!-- Inicio do main -->
+        <main id="main">
             <h1> Filmes, séries e muito mais. </h1>
             <h1> Sem limites. </h1>
+
             <h4> Assista onde quiser. Cancele quando quiser. </h4>
             <p> Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura. </p>
-            <div>
-                <input type="email" name="email" id="">
+
+            <div id="input-button">
+                <input type="email" name="email" placeholder="Email">
                 <div>
-                 <p>Vamos lá</p>
-                 <i></i>
+                  <p>Vamos lá</p>
+                  <i class="material-icons">chevron_right</i>
                 </div>
             </div>
         </main>
+         <!-- Fim do main -->
     </section>
     
 </body>
