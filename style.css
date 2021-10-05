@@ -172,11 +172,21 @@ input[type="email"]{
     font-size: 1.7rem;
 }
 
+.box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
 
 .box4-img{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 420px;
+    overflow: hidden;
+}
+
+.box4-img > img{
+    width: 540px;
 }
 
 .box4-desc{
