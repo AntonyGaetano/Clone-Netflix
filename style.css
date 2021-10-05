@@ -206,3 +206,40 @@ input[type="email"]{
 .box4-desc > h3{
     font-size: 1.7rem;
 }
+
+
+
+.box5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: black;
+    margin-top: 0.5rem;
+    padding: 4rem 2rem;
+}
+
+
+.box5-img{
+    height: 420px;
+    overflow: hidden;
+}
+
+.box5-img > img{
+    width: 500px;
+}
+
+.box5-desc{
+    padding-right: 5rem;
+    padding-left: 3rem;
+    width:50%;
+}
+
+.box5-desc > h1{
+    margin-bottom:1.3rem ;
+    font-size: 3.3rem;
+}
+
+.box5-desc > h3{
+    font-size: 1.7rem;
+}
