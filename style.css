@@ -172,3 +172,23 @@ input[type="email"]{
     font-size: 1.7rem;
 }
 
+
+.box4-img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box4-desc{
+    padding-right: 10rem;
+    width:50%;
+}
+
+.box4-desc > h1{
+    margin-bottom:1.3rem ;
+    font-size: 3.3rem;
+}
+
+.box4-desc > h3{
+    font-size: 1.7rem;
+}
