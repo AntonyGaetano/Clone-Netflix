@@ -177,6 +177,9 @@ input[type="email"]{
     justify-content: center;
     align-items: center;
     color:white;
+    background-color: black;
+    margin-top: 0.5rem;
+    padding: 4rem 2rem;
 }
 
 
@@ -186,11 +189,12 @@ input[type="email"]{
 }
 
 .box4-img > img{
-    width: 540px;
+    width: 560px;
 }
 
 .box4-desc{
-    padding-right: 10rem;
+    padding-right: 9rem;
+    padding-left: 3rem;
     width:50%;
 }
 
