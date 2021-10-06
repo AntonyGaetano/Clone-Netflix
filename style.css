@@ -86,12 +86,14 @@ body{
 
 #input-button > button{
    border:none;
-   background-color: red;
+   background-color: rgb(236, 29, 29);
    display: flex;
    justify-content: center;
    align-items: center;
    width: 170px;
    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 1.5rem;
+   color:white;
 }
 
 input[type="email"]{
@@ -301,4 +303,26 @@ input[type="email"]{
 
 .box-titulo > i{
     transform: scale(1.7);
+}
+
+.box-titulo > i:hover{
+    cursor: pointer;
+}
+
+#box7{
+    width: 100%;
+    height: max-content;
+    padding-top: 2.3rem;
+    padding-bottom: 4.8rem;
+    color:white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#box7 > p{
+    margin: 1.5rem 0;
+    font-size: 1.3rem;
 }
