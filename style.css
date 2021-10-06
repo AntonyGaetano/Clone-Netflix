@@ -84,7 +84,7 @@ body{
     display: flex;
 }
 
-#input-button > div{
+#input-button > button{
    border:none;
    background-color: red;
    display: flex;
@@ -242,4 +242,34 @@ input[type="email"]{
 
 .box5-desc > h3{
     font-size: 1.7rem;
+}
+
+.box6{
+    color:white;
+    background-color: black;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.perguntas{
+    border:1px solid yellow;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-pergunta{
+   width: 100%; 
+   margin:1rem auto;
+   background-color: #4b4b4b;
+   padding: 1.6rem;
+}
+
+#descricao1{
+    display: none;
 }
