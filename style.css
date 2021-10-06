@@ -252,10 +252,16 @@ input[type="email"]{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 0.5rem;
+}
+
+.box6 > h2{
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+    margin-top: 3.4rem;
 }
 
 .perguntas{
-    border:1px solid yellow;
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -265,11 +271,30 @@ input[type="email"]{
 
 .box-pergunta{
    width: 100%; 
-   margin:1rem auto;
+   margin:0.3rem auto;
    background-color: #4b4b4b;
-   padding: 1.6rem;
+   height: max-content;
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: center;
 }
 
-#descricao1{
+.descricao{
     display: none;
+}
+
+
+.box-titulo{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.7rem;
+    padding: 0 2rem;
+}
+
+.box-titulo > i{
+    transform: scale(1.7);
 }
