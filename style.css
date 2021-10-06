@@ -267,21 +267,25 @@ input[type="email"]{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
 }
 
 .box-pergunta{
    width: 100%; 
    margin:0.3rem auto;
    background-color: #4b4b4b;
-   height: max-content;
    display: flex;
    flex-direction: column;
    justify-content: start;
    align-items: center;
+   
 }
 
 .descricao{
     display: none;
+    border-top: 1px solid black;
+   padding: 2rem 2rem;
+   font-size: 1.6rem;
 }
 
 
