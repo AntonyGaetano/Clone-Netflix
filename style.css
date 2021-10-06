@@ -2,7 +2,6 @@
 
 body{
     background-color: #4b4b4b;
-    padding-bottom: 1rem;
 }
 
 #box1{
@@ -92,8 +91,12 @@ body{
    align-items: center;
    width: 170px;
    font-family:Verdana, Geneva, Tahoma, sans-serif;
-   font-size: 1.5rem;
+   font-size: 1.4rem;
    color:white;
+}
+
+#input-button > button:hover{
+    cursor:pointer;
 }
 
 input[type="email"]{
@@ -313,7 +316,7 @@ input[type="email"]{
     width: 100%;
     height: max-content;
     padding-top: 2.3rem;
-    padding-bottom: 4.8rem;
+    padding-bottom: 5.2rem;
     color:white;
     background-color: black;
     display: flex;
@@ -326,3 +329,4 @@ input[type="email"]{
     margin: 1.5rem 0;
     font-size: 1.3rem;
 }
+
