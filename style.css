@@ -50,7 +50,7 @@ body{
 .details-login > button{
     width: 84px;
     height: 36px;
-    background-color: rgb(255, 43, 43);
+    background-color: #F40612;
     border: none;
     border-radius: 5px;
     color:white;
@@ -69,20 +69,19 @@ body{
 
 #main > h1{
     font-size: 50px;
-    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
 }
 
 #main > h4{
     margin: 1rem 0;
     font-size: 1.5rem;
-    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
 }
 
 #main > p{
     margin: 1rem 0;
     font-size: 1.3rem;
-    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
 }
 
 #input-button{
@@ -91,12 +90,11 @@ body{
 
 #input-button > button{
    border:none;
-   background-color: rgb(236, 29, 29);
+   background-color: #F40612;
    display: flex;
    justify-content: center;
    align-items: center;
    width: 170px;
-   font-family:Verdana, Geneva, Tahoma, sans-serif;
    font-size: 1.4rem;
    color:white;
 }
@@ -131,7 +129,6 @@ input[type="email"]{
 
 .box2-desc > h1{
   font-size: 3rem;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 700;
   margin: 1rem 0;
 }
