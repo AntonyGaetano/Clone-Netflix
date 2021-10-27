@@ -3,7 +3,7 @@
 ### Esse projeto foi a clonagem da parte visual inicial da Netflix!
 
 
-### Loyout para notebook e desktop
+### Layout para notebook e desktop
 
 <img src="gif/app_netflix_telanot.gif">
 
